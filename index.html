@@ -5,26 +5,35 @@
 <style>
 body {background-color: SlateGrey;}
 .Sub {
-  background-color: tomato;
-  color: white;
-  border: 2px solid black;
+  background-color: SlateGrey;
+  color: Teal;
+  border: 1px solid black;
   margin: 20px;
-  padding: 20px;
+  padding: 0px;
 }
-  
+ .Category {
+  background-color: SlateGrey;
+  color: Teal;
+  border: 2px Teal;
+  margin: 0px;
+  padding: 0px;
+} 
 div {
   width:300px;
   margin:auto;
-  background-color: Teal;
 }
 </style>
 </head>
 <body>
 <button onclick="document.location='https://thegoldenfoxy.github.io/--'">ERR</button>
-<div>TestMain
-  <div>TestSub</div>
+<div class="Category">Factions
+  <div class="Sub">The Association</div>
+  <div class="Sub">The Ancient Forces
+      <div class="Sub">The Corruptive Forces</div>
+      <div class="Sub">The Temporal Guardians</div>
+    </div>
 </div>
-<div>TestMain2
+<divclass="Category">Events
   <div class="Sub">TestSub2</div>
 </div>
 </body>
